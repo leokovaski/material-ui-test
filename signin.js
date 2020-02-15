@@ -10,7 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import Copyright from '../components/Copyright';
-import useStyles from './styles';
+import { useStyles } from './styles';
 import { withStyles } from "@material-ui/core/styles";
 import api from "../../services/api";
 import { login } from "../../services/auth";
